@@ -1261,7 +1261,7 @@ a h6 {
 .pageheader__area .breadcrumb li a:hover,
 .pageheader__area .breadcrumb li a.active,
 .pageheader__area .breadcrumb li {
-  color: #ef4136;
+  color: #000;
 }
 
 .review__nav li.active,
@@ -3000,7 +3000,7 @@ html {
   color: #054d10;
 }
 .header--four .header__bottom {
-  background: #054d10;
+  background: #fff;
   padding-block: 13px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -3021,7 +3021,7 @@ html {
 }
 @media (min-width: 1200px) {
   .header--four .header__bottom .area .main-menu .menu ul li a {
-    color: #fff;
+    color: #054d10;
   }
 }
 @media (min-width: 1200px) {
@@ -3315,6 +3315,13 @@ html {
 }
 .footer__bottom {
   padding-block: 30px;
+  background-color: #f6f3ed;
+  color: #000;
+}
+
+.footer__bottom p,
+.footer__bottom p a {
+  color: #000;
 }
 .footer__title h5 {
   margin-bottom: calc(1.3125rem + 0.75vw);
@@ -4463,10 +4470,10 @@ html {
   animation: lab_round 25s linear infinite;
   opacity: 1;
 }
-.process--three .process__item:hover .process__icon::before {
+/* .process--three .process__item:hover .process__icon::before {
   animation: fadeOutRight 2s linear infinite;
   background: url(../images/process/icon/shape-3.png);
-}
+} */
 .process--three .process__icon {
   width: 120px;
   height: 120px;
@@ -4501,7 +4508,7 @@ html {
   transition: all 0.3s ease;
 }
 .process--three .process__icon::before {
-  background: url(../images/process/icon/shape-2.png) no-repeat;
+  /* background: url(../images/process/icon/shape-2.png) no-repeat; */
   width: 95px;
   height: 25px;
   top: 40px;
@@ -4525,13 +4532,23 @@ html {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.process--four .process__item:hover .process__icon::before {
+/* .process--four .process__item:hover .process__icon::before {
   background: url(../images/process/icon/shape-3.png) no-repeat;
   background-position: center;
-}
-.process--four .process__icon::before {
+  display: none;
+} */
+/* .process--four .process__icon::before {
   background: url(../images/process/icon/shape-2.png) no-repeat;
   background-position: center;
+  display: none;
+} */
+
+.process--three .process__item:hover .process__icon span {
+  background: #054d10;
+}
+
+.process--three .process__icon span {
+  background: #054d10;
 }
 
 .project--one {
