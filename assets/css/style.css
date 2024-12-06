@@ -26,6 +26,7 @@ Tags: cleaning, cleaning company, cleaning service, contractor, electrician, eng
 # Contact Us
 #Footer
 --------------------------------------------------------------*/
+
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
 .jobs__list,
 .jobs__search form,
@@ -2084,6 +2085,10 @@ select {
 
 /* @@@@@@@@@@@@@  Global CSS  @@@@@@@@@@@@@@ */
 /*======= Background Image ==========*/
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-img {
   background-size: cover !important;
   background-repeat: no-repeat !important;
