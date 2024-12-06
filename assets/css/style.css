@@ -7329,3 +7329,23 @@ html {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.custom_top_header {
+  background-color: #054d10 !important;
+}
+
+.header--four .header__top .info__content p,
+.header--four .header__top .info__content p b {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .custom_top_header {
+    background-color: #fff !important;
+  }
+
+  .header--four .header__top .info__content p,
+  .header--four .header__top .info__content p b {
+    color: #054d10;
+  }
+}
