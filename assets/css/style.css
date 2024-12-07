@@ -7384,3 +7384,15 @@ select {
 .call-button:hover {
   background-color: #218838;
 }
+
+.title-bg h5,
+.title-bg h2 {
+  color: #fff !important;
+}
+
+@media (max-width: 1200px) {
+  .title-bg h5,
+  .title-bg h2 {
+    color: #000;
+  }
+}
