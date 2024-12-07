@@ -27,6 +27,13 @@ Tags: cleaning, cleaning company, cleaning service, contractor, electrician, eng
 #Footer
 --------------------------------------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+}
+
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
 .jobs__list,
 .jobs__search form,
@@ -1907,7 +1914,7 @@ body.margin-top {
 }
 
 :root {
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
 
 /*--------------------------------------------------------------
@@ -2085,9 +2092,6 @@ select {
 
 /* @@@@@@@@@@@@@  Global CSS  @@@@@@@@@@@@@@ */
 /*======= Background Image ==========*/
-html {
-  scroll-behavior: smooth;
-}
 
 .bg-img {
   background-size: cover !important;
@@ -3516,7 +3520,7 @@ html {
   transform: translateY(0px);
 }
 .banner--four .banner__item {
-  padding: calc(2.0625rem + 9.75vw) 0;
+  padding: calc(2.0625rem + 10.75vw) 0;
   background-position: center;
 }
 @media (min-width: 1200px) {
@@ -7348,4 +7352,35 @@ html {
   .header--four .header__top .info__content p b {
     color: #054d10;
   }
+}
+
+.call-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.call-button i {
+  margin-right: 8px; /* Space between icon and text */
+  font-size: 20px;
+}
+
+.call-button:hover {
+  color: white;
+}
+.call-button:hover {
+  background-color: #218838;
 }
