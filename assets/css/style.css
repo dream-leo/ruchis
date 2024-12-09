@@ -3321,7 +3321,7 @@ select {
 }
 .footer__bottom {
   padding-block: 30px;
-  background-color: #f6f3ed;
+  /* background-color: #f6f3ed; */
   color: #000;
 }
 
@@ -7425,4 +7425,41 @@ a:hover {
 
 .banner--four .banner__content h5 {
   font-size: 16px;
+}
+
+footer {
+  background: #fff;
+}
+
+.footer__top {
+  padding: 40px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer__logo-social {
+  max-width: 200px;
+}
+.footer__social-links {
+  text-align: left !important;
+}
+.footer__social-links a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer__social-links a:hover {
+  color: #218838;
+}
+.footer__contact p {
+  margin: 20px 0;
+  color: #000;
+}
+.footer__contact a {
+  color: #218838;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer__contact a:hover {
+  color: #218838;
 }
