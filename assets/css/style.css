@@ -7519,3 +7519,8 @@ a:hover {
     text-align: center;
   }
 }
+
+.map-section iframe {
+  width: 100%;
+  height: 500px;
+}
