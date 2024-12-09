@@ -2414,7 +2414,7 @@ select {
 }
 @media (min-width: 1200px) {
   .padding-tb {
-    padding: 7.5rem 0;
+    padding: 5.5rem 0;
   }
 }
 
@@ -3575,12 +3575,12 @@ select {
 }
 @media (min-width: 992px) {
   .banner--four .banner__content h2 {
-    font-size: 58px;
+    font-size: 40px;
   }
 }
 @media (min-width: 1440px) {
   .banner--four .banner__content h2 {
-    font-size: 82px;
+    font-size: 40px;
   }
 }
 .banner--four .banner__content h2 span {
@@ -4144,9 +4144,9 @@ select {
 .about--two .about__content--bottom .author .content h6 {
   font-size: 1rem;
 }
-.about--three {
+/* .about--three {
   background: #f6f3ed;
-}
+} */
 .about--three .section__header {
   margin-left: 0;
 }
@@ -5491,9 +5491,9 @@ select {
   height: 4px;
 }
 
-.pricing--one {
+/* .pricing--one {
   background: #f6f3ed;
-}
+} */
 .pricing--one .pricing__item {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -7364,7 +7364,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #28a745;
+  background-color: #054d10;
   color: white;
   border: none;
   border-radius: 50px;
@@ -7374,6 +7374,7 @@ select {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   z-index: 1000;
+  animation: pulse 2s infinite;
 }
 
 .call-button i {
@@ -7383,11 +7384,23 @@ select {
 
 .call-button:hover {
   color: white;
-}
-.call-button:hover {
-  background-color: #218838;
+  background-color: #0e4c1b;
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
 .title-bg h5,
 .title-bg h2 {
   color: #fff !important;
@@ -7408,4 +7421,8 @@ a:hover {
 .contact--two .section__wrapper form .lab-btn:hover,
 .contact--one .section__wrapper .lab-btn:hover {
   color: #218838;
+}
+
+.banner--four .banner__content h5 {
+  font-size: 16px;
 }
